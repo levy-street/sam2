@@ -1,0 +1,11 @@
+Pillow
+albumentations
+datasets
+geopandas
+huggingface_hub
+matplotlib
+numpy
+playwright
+torch
+torchvision
+transformers

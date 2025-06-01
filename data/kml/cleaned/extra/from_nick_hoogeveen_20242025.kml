@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    
+
+    <Document id="root_doc">
+        
+
+        <Schema name="from_nick_hoogeveen_20242025__from_nick_hoogeveen__20242025" id="from_nick_hoogeveen_20242025__from_nick_hoogeveen__20242025">
+            
+	
+            <SimpleField name="fid" type="float"/>
+            
+	
+            <SimpleField name="fill" type="string"/>
+            
+	
+            <SimpleField name="stroke" type="string"/>
+            
+	
+            <SimpleField name="annotation-type" type="string"/>
+            
+	
+            <SimpleField name="Year" type="int"/>
+            
+	
+            <SimpleField name="Area" type="int"/>
+            
+
+        </Schema>
+        
+
+        <Style id="data-collection">
+            <LineStyle>
+                <width>0.5</width>
+                <color>ffff00ff</color>
+            </LineStyle>
+            <PolyStyle>
+                <color>ffff00ff</color>
+            </PolyStyle>
+        </Style>
+        <Folder>
+            <name>from_nick_hoogeveen_20242025__from_nick_hoogeveen__20242025</name>
+            
+  
+            <open>1</open>
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <name>2025</name>
+                
+	
+                <ExtendedData>
+                    <SchemaData schemaUrl="#from_nick_hoogeveen_20242025__from_nick_hoogeveen__20242025">
+                        
+		
+                        <SimpleData name="fid">1</SimpleData>
+                        
+		
+                        <SimpleData name="fill">#00bbd3</SimpleData>
+                        
+		
+                        <SimpleData name="stroke">#00bbd3</SimpleData>
+                        
+		
+                        <SimpleData name="annotation-type">area</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2025</SimpleData>
+                        
+		
+                        <SimpleData name="Area">276</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>171.2290285,-44.0824921 171.2288763,-44.0825358 171.2290423,-44.0826824 171.2291564,-44.0825964 171.2292097,-44.0825661 171.2291115,-44.0825174 171.22909,-44.0825284 171.2290285,-44.0824921</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <name>2024 (1)</name>
+                
+	
+                <ExtendedData>
+                    <SchemaData schemaUrl="#from_nick_hoogeveen_20242025__from_nick_hoogeveen__20242025">
+                        
+		
+                        <SimpleData name="fid">2</SimpleData>
+                        
+		
+                        <SimpleData name="fill">#00bbd3</SimpleData>
+                        
+		
+                        <SimpleData name="stroke">#00bbd3</SimpleData>
+                        
+		
+                        <SimpleData name="annotation-type">area</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2024</SimpleData>
+                        
+		
+                        <SimpleData name="Area">132</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>171.2294822,-44.0823508 171.2294726,-44.0823584 171.2294625,-44.0823628 171.2294418,-44.0823631 171.2294281,-44.0823642 171.2294094,-44.0823697 171.2293851,-44.082369 171.229371,-44.0823704 171.2293644,-44.0823766 171.2293528,-44.0823904 171.2293376,-44.0824067 171.2293214,-44.0824158 171.2293123,-44.0824206 171.229285,-44.0824206 171.2292708,-44.08242 171.2292587,-44.082424 171.2292496,-44.0824346 171.2292303,-44.0824458 171.2292228,-44.0824495 171.2292091,-44.0824491 171.229197,-44.0824538 171.2291838,-44.0824622 171.2291747,-44.0824702 171.22916,-44.0824756 171.2291514,-44.0824789 171.2291347,-44.0824913 171.2290788,-44.0825217 171.2290282,-44.082493 171.2290604,-44.0824858 171.2291099,-44.0824676 171.2291568,-44.0824479 171.2292075,-44.0824347 171.2292773,-44.0823983 171.2293189,-44.0823583 171.2293375,-44.0823475 171.2293568,-44.0823337 171.2293704,-44.0823415 171.2294096,-44.0823167 171.2294338,-44.0823177 171.229447,-44.0823244 171.22945,-44.0823365 171.2294822,-44.0823508</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <name>2024 (2)</name>
+                
+	
+                <ExtendedData>
+                    <SchemaData schemaUrl="#from_nick_hoogeveen_20242025__from_nick_hoogeveen__20242025">
+                        
+		
+                        <SimpleData name="fid">3</SimpleData>
+                        
+		
+                        <SimpleData name="fill">#00bbd3</SimpleData>
+                        
+		
+                        <SimpleData name="stroke">#00bbd3</SimpleData>
+                        
+		
+                        <SimpleData name="annotation-type">area</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2024</SimpleData>
+                        
+		
+                        <SimpleData name="Area">277</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>171.2295588,-44.0823827 171.2294899,-44.0823574 171.2294694,-44.0823691 171.2294345,-44.0823746 171.2293976,-44.0823804 171.2293799,-44.0823796 171.2293576,-44.0824004 171.2293273,-44.0824236 171.2293172,-44.0824302 171.2292975,-44.0824276 171.2292727,-44.0824291 171.229262,-44.082436 171.2292494,-44.0824483 171.2292302,-44.0824563 171.229212,-44.0824589 171.2291938,-44.0824709 171.2291685,-44.0824839 171.2291518,-44.0824934 171.2291234,-44.0825094 171.2291118,-44.0825166 171.2292085,-44.0825669 171.2292671,-44.0825319 171.2293713,-44.082481 171.2295588,-44.0823827</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                
+  
+            </Placemark>
+            
+
+        </Folder>
+        
+
+    </Document>
+</kml>

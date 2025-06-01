@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bowker_2022" id="bowker_2022">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="Area (m2)" type="float"></SimpleField>
+	<SimpleField name="Year" type="float"></SimpleField>
+</Schema>
+<Folder><name>bowker_2022</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bowker_2022">
+		<SimpleData name="Area (m2)">23376</SimpleData>
+		<SimpleData name="Year">2022</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>176.19729833563,-37.7905998845848 176.197251400066,-37.7904631667004 176.197181916766,-37.7900433167003 176.198430633366,-37.7900501833004 176.198793733366,-37.7900521667003 176.199048966766,-37.7898285000003 176.199157833366,-37.7898540667003 176.199980733366,-37.7897230000003 176.200033416766,-37.7898241333003 176.200114450066,-37.7903162167003 176.200118350066,-37.7903897833003 176.200054806834,-37.7905201912666 176.199747344525,-37.7904886112118 176.199506839037,-37.7906482492433 176.199368716153,-37.7908483710669 176.198118950601,-37.7911352845498 176.198047594743,-37.7910269388275 176.198028954164,-37.7908368816959 176.197917530444,-37.7906742016615 176.197799963269,-37.790611112931 176.197568756481,-37.7905759675414 176.19729833563,-37.7905998845848</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

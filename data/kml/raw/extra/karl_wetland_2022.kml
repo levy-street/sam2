@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="karl_wetland" id="karl_wetland">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="Area" type="float"></SimpleField>
+	<SimpleField name="Year" type="float"></SimpleField>
+</Schema>
+<Folder><name>karl_wetland</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#karl_wetland">
+		<SimpleData name="Area">33837</SimpleData>
+		<SimpleData name="Year">2022</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>176.184164816316,-37.7917942181913 176.1840603,-37.7910684 176.1837469,-37.791022 176.1836402,-37.7913133 176.1834832,-37.7916543 176.1833017,-37.7917301 176.1831022,-37.79174335 176.1829426,-37.7916393 176.1828052,-37.79167181 176.1827375,-37.79144952 176.1827477,-37.7911548 176.183112,-37.790748 176.1835262,-37.7906753 176.1835223,-37.7905683 176.1827385,-37.7904296 176.1818601,-37.790789 176.1817976,-37.7906689 176.1823043,-37.79029485 176.18226,-37.7901665 176.1819678,-37.7900902 176.1826915,-37.78970161 176.182795879216,-37.7897707732907 176.18292610114,-37.7898950363981 176.18305924548,-37.7899840041054 176.183176761584,-37.7900633325411 176.1833594,-37.79011124 176.1833594,-37.79011124 176.183811,-37.7900601 176.184333270285,-37.7904082790773 176.184592942903,-37.7903890416907 176.1847253,-37.79041461 176.185008,-37.7907421 176.1850866,-37.7910737 176.1851255,-37.7914396 176.1851122,-37.79179236 176.184164816316,-37.7917942181913</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

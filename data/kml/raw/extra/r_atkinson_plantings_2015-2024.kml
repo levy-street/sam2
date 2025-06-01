@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="r_atkinson_plantings__r_atkinson_plantings__plantings" id="r_atkinson_plantings__r_atkinson_plantings__plantings">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="Area" type="int"></SimpleField>
+</Schema>
+<Folder><name>r_atkinson_plantings__r_atkinson_plantings__plantings</name>
+  <Placemark>
+	<name>2015</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">2</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">11361</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4896633,-37.9307266,0 175.4896563,-37.9307784,0 175.4896268,-37.9311772,0 175.4896053,-37.9313221,0 175.4896,-37.9315093,0 175.4896952,-37.9318499,0 175.4897186,-37.9317637,0 175.4898152,-37.93166,0 175.4903645,-37.931628,0 175.4908673,-37.9316077,0 175.4909382,-37.9315684,0 175.4906974,-37.9314989,0 175.4906903,-37.9313898,0 175.4906735,-37.9312179,0 175.490762,-37.931165,0 175.49099,-37.9311925,0 175.490872,-37.9307651,0 175.4906065,-37.9304182,0 175.4905582,-37.9302659,0 175.4905388,-37.9302685,0 175.4905334,-37.9303605,0 175.4904912,-37.9303616,0 175.4904723,-37.9306234,0 175.4903564,-37.9308112,0 175.4896633,-37.9307266,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2015</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">3</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">834</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4910437,-37.931146,0 175.4911617,-37.9309937,0 175.491212,-37.930972,0 175.4911644,-37.9309112,0 175.4910725,-37.9309074,0 175.4908486,-37.9304769,0 175.4906313,-37.9303394,0 175.4906252,-37.9303674,0 175.4908714,-37.9306885,0 175.4909203,-37.9307715,0 175.4910437,-37.931146,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2015</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">4</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">481</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4912822,-37.9310042,0 175.4912245,-37.9310306,0 175.4911481,-37.9310856,0 175.4911012,-37.9311745,0 175.4910851,-37.9312485,0 175.4911991,-37.9311745,0 175.4911999,-37.931156,0 175.4913104,-37.9311428,0 175.4913949,-37.9311332,0 175.4914861,-37.9311756,0 175.4915665,-37.9311523,0 175.4916094,-37.9311184,0 175.4916175,-37.9310888,0 175.4915424,-37.9310444,0 175.4914592,-37.9310772,0 175.4914252,-37.9311074,0 175.4913667,-37.9310772,0 175.4912822,-37.9310042,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2020</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">5</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">16120</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.489666,-37.9307245,0 175.488279,-37.930569,0 175.4880148,-37.9316722,0 175.4886465,-37.9317357,0 175.488853,-37.9316722,0 175.4893881,-37.9318425,0 175.4896952,-37.9318457,0 175.4896027,-37.9315072,0 175.4896106,-37.931297,0 175.4896184,-37.9311478,0 175.489666,-37.9307245,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2020</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">7</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">326</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4907951,-37.9318779,0 175.4907265,-37.9321525,0 175.4907386,-37.9321779,0 175.490799,-37.932176,0 175.4908594,-37.932174,0 175.4908809,-37.9321529,0 175.4908702,-37.9321148,0 175.4908326,-37.9320302,0 175.4908326,-37.9319836,0 175.4909184,-37.9319709,0 175.490897,-37.9318821,0 175.4907951,-37.9318779,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2020</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">8</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4909007,-37.9320857,0 175.4909034,-37.9321301,0 175.4909331,-37.9321694,0 175.4911582,-37.9321534,0 175.4911421,-37.9320709,0 175.4910912,-37.9320836,0 175.4910187,-37.9320857,0 175.4910241,-37.9321132,0 175.4909892,-37.9321174,0 175.4909651,-37.9320836,0 175.4909007,-37.9320857,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2021</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">9</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">1525</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4914266,-37.9314025,0 175.4924667,-37.9312758,0 175.4924203,-37.931101,0 175.4915486,-37.9312417,0 175.4914883,-37.9313073,0 175.4914534,-37.9313569,0 175.4914266,-37.9314025,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2021</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">10</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">4385</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>175.4890884,-37.9317468,0 175.4890881,-37.9317483,0 175.4891406,-37.931765,0 175.4890884,-37.9317468,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>175.4891406,-37.931765,0 175.4891832,-37.9317798,0 175.4891968,-37.9318681,0 175.489233,-37.9319791,0 175.4892679,-37.9320447,0 175.4894154,-37.9320764,0 175.4897678,-37.9319305,0 175.4907575,-37.9317464,0 175.4908004,-37.9316829,0 175.49087,-37.9316098,0 175.4903605,-37.9316174,0 175.4898179,-37.9316579,0 175.4897213,-37.9317658,0 175.4896979,-37.931852,0 175.4893908,-37.9318446,0 175.4891406,-37.931765,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>175.4888557,-37.9316743,0 175.4886492,-37.9317378,0 175.4880175,-37.9316743,0 175.4880081,-37.9317114,0 175.4886022,-37.9317727,0 175.488849,-37.9318975,0 175.4890421,-37.9320826,0 175.4892191,-37.9321525,0 175.4891553,-37.932032,0 175.4890909,-37.9318776,0 175.4890909,-37.9318416,0 175.4889112,-37.9318183,0 175.4888709,-37.9318099,0 175.4888817,-37.931776,0 175.4890802,-37.9317887,0 175.4890881,-37.9317483,0 175.4888557,-37.9316743,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>2021</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">11</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">1011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4907453,-37.9302241,0 175.4908472,-37.9303066,0 175.4921092,-37.930093,0 175.4920998,-37.9300342,0 175.4907453,-37.9302241,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2021</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">12</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">1167</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4909382,-37.9315684,0 175.4910108,-37.9314935,0 175.4910581,-37.9313899,0 175.4910407,-37.9313148,0 175.49099,-37.9311925,0 175.490762,-37.931165,0 175.4906735,-37.9312179,0 175.490684,-37.9313233,0 175.4906974,-37.9314989,0 175.4909382,-37.9315684,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2022</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">13</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">4897</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.490587,-37.9302209,0 175.490642,-37.9303351,0 175.4908499,-37.930479,0 175.4910725,-37.9309063,0 175.4911644,-37.9309112,0 175.491212,-37.930972,0 175.4911617,-37.9309937,0 175.4910437,-37.931146,0 175.4910851,-37.9312485,0 175.4911012,-37.9311745,0 175.4911481,-37.9310856,0 175.4912245,-37.9310306,0 175.4912822,-37.9310042,0 175.4913428,-37.9309863,0 175.4914115,-37.9309697,0 175.491381,-37.9309023,0 175.4913224,-37.9308805,0 175.4912489,-37.9308935,0 175.4912342,-37.9308697,0 175.491206,-37.9308301,0 175.4911908,-37.9307973,0 175.4911062,-37.9305604,0 175.4911395,-37.9305003,0 175.4912522,-37.9304723,0 175.4913729,-37.9304516,0 175.49157,-37.9304219,0 175.4917993,-37.9303997,0 175.4919709,-37.9304536,0 175.4920272,-37.9306276,0 175.4921131,-37.9306123,0 175.4922688,-37.9306086,0 175.4921226,-37.930094,0 175.4920703,-37.9301236,0 175.4908593,-37.9303267,0 175.4905938,-37.930205,0 175.490587,-37.9302209,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2022</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">14</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">7933</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4889067,-37.9303415,0 175.4888329,-37.9303637,0 175.4883367,-37.9302855,0 175.488279,-37.930569,0 175.4903564,-37.930807,0 175.4904697,-37.930634,0 175.4904912,-37.9303574,0 175.4905334,-37.9303563,0 175.4905388,-37.9302643,0 175.4905441,-37.9302061,0 175.4902986,-37.9302934,0 175.489405,-37.9303392,0 175.489024,-37.9303459,0 175.4889067,-37.9303415,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2024</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">15</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">698</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4892164,-37.9321504,0 175.4894154,-37.9320764,0 175.4892679,-37.9320447,0 175.4892491,-37.9320109,0 175.489233,-37.9319791,0 175.4891982,-37.9318755,0 175.4891794,-37.9317443,0 175.4892143,-37.9316364,0 175.4892014,-37.9315583,0 175.4891035,-37.9315838,0 175.4891123,-37.9316449,0 175.4890909,-37.9317316,0 175.4890802,-37.9317887,0 175.4888817,-37.931776,0 175.4888709,-37.9318099,0 175.4889112,-37.9318183,0 175.4890909,-37.9318416,0 175.4890909,-37.9318776,0 175.4891553,-37.932032,0 175.4892164,-37.9321504,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2024</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">16</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">8164</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4914266,-37.9314025,0 175.4915084,-37.9318425,0 175.4916626,-37.9319631,0 175.4916787,-37.9321292,0 175.4917163,-37.9321556,0 175.4917615,-37.9321705,0 175.4926943,-37.932056,0 175.4924667,-37.9312758,0 175.4914266,-37.9314025,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>2024</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#r_atkinson_plantings__r_atkinson_plantings__plantings">
+		<SimpleData name="fid">17</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="Area">4023</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>175.4892164,-37.9321504,0 175.4906205,-37.9322414,0 175.4907548,-37.9317443,0 175.4897678,-37.9319305,0 175.4892164,-37.9321504,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    
+
+    <Document id="root_doc">
+        
+
+        <Schema name="rowe" id="rowe">
+            
+	
+            <SimpleField name="id" type="float"/>
+            
+	
+            <SimpleField name="Area (m2)" type="float"/>
+            
+	
+            <SimpleField name="Year" type="float"/>
+            
+
+        </Schema>
+        
+
+        <Style id="data-collection">
+            <LineStyle>
+                <width>0.5</width>
+                <color>ffff00ff</color>
+            </LineStyle>
+            <PolyStyle>
+                <color>ffff00ff</color>
+            </PolyStyle>
+        </Style>
+        <Folder>
+            <name>rowe</name>
+            
+  
+            <open>1</open>
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe">
+                        
+		
+                        <SimpleData name="Area (m2)">15804</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.19402776544,-37.7973616256998 176.193887951208,-37.7975525046288 176.1933758634,-37.7973749649062 176.193007479861,-37.7972239799302 176.191655762846,-37.7961381358446 176.192184412003,-37.7959367138649 176.191946773499,-37.7956386024595 176.191865708179,-37.7952840346852 176.192199397219,-37.7952662829941 176.192225512173,-37.7956179901343 176.19254455026,-37.7958964897269 176.192916858013,-37.7961387368022 176.193095383678,-37.7964645547483 176.193364436712,-37.7966008314728 176.19342819083,-37.7968079403127 176.193379604976,-37.7969528352092 176.19402776544,-37.7973616256998</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+
+        </Folder>
+        
+
+    </Document>
+</kml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    
+
+    <Document id="root_doc">
+        
+
+        <Schema name="karl_riparian" id="karl_riparian">
+            
+	
+            <SimpleField name="id" type="float"/>
+            
+	
+            <SimpleField name="Area" type="float"/>
+            
+	
+            <SimpleField name="Year" type="float"/>
+            
+
+        </Schema>
+        
+
+        <Style id="data-collection">
+            <LineStyle>
+                <width>0.5</width>
+                <color>ffff00ff</color>
+            </LineStyle>
+            <PolyStyle>
+                <color>ffff00ff</color>
+            </PolyStyle>
+        </Style>
+        <Folder>
+            <name>karl_riparian</name>
+            
+  
+            <open>1</open>
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#karl_riparian">
+                        
+		
+                        <SimpleData name="Area">22300</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2022</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.182205513926,-37.7885943898661 176.182708668011,-37.78960283324 176.182504425691,-37.7896596120389 176.181583242733,-37.7889033721252 176.181540341346,-37.7889270844908 176.181420503743,-37.788723248754 176.181559009064,-37.7884591236069 176.181475437727,-37.7880769612353 176.181293930913,-37.7879711538182 176.18126478689,-37.7878940321287 176.181275228435,-37.7878363429939 176.181398505829,-37.7875508112097 176.181352273613,-37.7875246732689 176.181183426841,-37.7876235481981 176.181044642436,-37.7875801433632 176.180927804879,-37.7872655125828 176.180935958958,-37.7869136747625 176.180837847591,-37.7868548187318 176.180749059165,-37.7868326151398 176.180404019251,-37.7867988835068 176.180304942066,-37.7867175003885 176.180159219905,-37.7865123123181 176.180212402368,-37.786308551196 176.180418185012,-37.7861324808529 176.180725789781,-37.786249049626 176.181124792164,-37.7863799583364 176.181211650312,-37.7865000900008 176.181268241191,-37.7867963529326 176.181258953721,-37.7871088056808 176.181443659076,-37.7874640461294 176.182022868049,-37.7877912382702 176.182199931331,-37.7878931780632 176.182483433364,-37.7884567000004 176.182205513926,-37.7885943898661</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+
+        </Folder>
+        
+
+    </Document>
+</kml>

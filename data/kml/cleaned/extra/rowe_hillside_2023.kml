@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    
+
+    <Document id="root_doc">
+        
+
+        <Schema name="rowe_hillside" id="rowe_hillside">
+            
+	
+            <SimpleField name="id" type="float"/>
+            
+	
+            <SimpleField name="Area" type="float"/>
+            
+	
+            <SimpleField name="Year" type="float"/>
+            
+
+        </Schema>
+        
+
+        <Style id="data-collection">
+            <LineStyle>
+                <width>0.5</width>
+                <color>ffff00ff</color>
+            </LineStyle>
+            <PolyStyle>
+                <color>ffff00ff</color>
+            </PolyStyle>
+        </Style>
+        <Folder>
+            <name>rowe_hillside</name>
+            
+  
+            <open>1</open>
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">0</SimpleData>
+                        
+		
+                        <SimpleData name="Area">8908</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.196010612395,-37.7901540179446 176.196051538551,-37.7900133095821 176.196113808735,-37.7898815968654 176.196173423273,-37.7897766661373 176.1962354783,-37.7896988829729 176.196450849682,-37.7895574688493 176.196547164513,-37.7894863145174 176.196637523284,-37.7894022188992 176.196746811577,-37.7892858595832 176.196790527828,-37.7892025266929 176.196816925853,-37.7890047611818 176.196803213812,-37.7887309791232 176.19684912597,-37.788720660837 176.1969306667,-37.7888404 176.1970210167,-37.7890684 176.1971770167,-37.7898780833 176.1971819167,-37.7900433167 176.197233409927,-37.7903994740096 176.196648704114,-37.7905072946949 176.196636012639,-37.7904720659067 176.196636857946,-37.7904340664482 176.1966218926,-37.7904126058918 176.196631261307,-37.790351985434 176.196624079785,-37.79033629317 176.196626315626,-37.7902769002401 176.196640626951,-37.7900884488126 176.196575358565,-37.7899849785145 176.196451515874,-37.7898785418544 176.196428926581,-37.7898618015687 176.196377542198,-37.7898579495964 176.196357167279,-37.7898925615776 176.196336677649,-37.7899216894764 176.196316903825,-37.7899273885654 176.196303822294,-37.78994961082 176.196273616928,-37.7899779291939 176.196242066826,-37.7899974626218 176.196243294951,-37.7900335956043 176.196216228067,-37.7900465117439 176.196172516805,-37.7900747534105 176.196136328988,-37.7901198203825 176.19604851489,-37.7901344681468 176.196010612395,-37.7901540179446</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">1</SimpleData>
+                        
+		
+                        <SimpleData name="Area">2058</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.195907610565,-37.7903277382086 176.195778974479,-37.7906281915972 176.195660263421,-37.7908304586437 176.195583272387,-37.7910620915201 176.195590030611,-37.7912657674574 176.195489703209,-37.791284543288 176.195434796845,-37.791268661506 176.195427281505,-37.791147032487 176.195403215128,-37.7909674580957 176.195396856265,-37.7908199530254 176.195349282108,-37.7907955615197 176.195787304145,-37.7903053217588 176.195907610565,-37.7903277382086</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">2</SimpleData>
+                        
+		
+                        <SimpleData name="Area">1924</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.195878119238,-37.7903943518727 176.195945758514,-37.7904149879469 176.195928166284,-37.7905230135214 176.196020587394,-37.7906023687527 176.19628670548,-37.7906288512863 176.196439560922,-37.7906086482646 176.196605383291,-37.7905608046111 176.196658135009,-37.7905176369181 176.196759498215,-37.7905229098583 176.1967752851,-37.7906075562546 176.196861092927,-37.7906742488897 176.19673241261,-37.79069219067 176.19658477325,-37.790739540676 176.196329125233,-37.7908620573619 176.196148944815,-37.7907176674744 176.19606101699,-37.7907425278334 176.195947377487,-37.7907809278313 176.195801028733,-37.790717483548 176.195743421866,-37.7906949698057 176.195878119238,-37.7903943518727</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">3</SimpleData>
+                        
+		
+                        <SimpleData name="Area">1949</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.196644900624,-37.7932840248916 176.196615842117,-37.7932246458438 176.196634228895,-37.7931628241748 176.196643114267,-37.7930912756054 176.196683846583,-37.7929522558049 176.196753470065,-37.7928506523726 176.196752750412,-37.7928339670196 176.196722451188,-37.7927531627942 176.19673379286,-37.7926564504509 176.196739962634,-37.7925646207218 176.196826265318,-37.7925344575388 176.196850170989,-37.7925068405428 176.196868020985,-37.7924311416216 176.19698354484,-37.7923228751036 176.197107239893,-37.7922610266521 176.197050753081,-37.7925709846802 176.197032782761,-37.7926107817086 176.197083362382,-37.792649724608 176.196827724589,-37.7930356464645 176.196806122716,-37.7931152663078 176.196644900624,-37.7932840248916</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">4</SimpleData>
+                        
+		
+                        <SimpleData name="Area">1001</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.196988052484,-37.7923152178099 176.196994762572,-37.7921096531447 176.196984398163,-37.7920287858933 176.196987150848,-37.791931816731 176.196896145745,-37.7917595545813 176.196873781759,-37.7916949558309 176.196828231687,-37.7916049918488 176.196853281182,-37.7915489495141 176.196848485105,-37.7914445840469 176.197034366921,-37.7916905073058 176.197118755186,-37.7919538020802 176.197107239893,-37.7922610266521 176.196988052484,-37.7923152178099</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">5</SimpleData>
+                        
+		
+                        <SimpleData name="Area">848</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.196848485105,-37.7914445840469 176.196754886476,-37.7914250163974 176.196656174856,-37.7913624353838 176.196665174114,-37.7912997085359 176.196656004314,-37.7911244700504 176.196672115501,-37.791085988631 176.196732889041,-37.790961215289 176.196954074407,-37.7911393398781 176.196908225923,-37.7911511683808 176.196870216668,-37.7912711354056 176.196848485105,-37.7914445840469</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">6</SimpleData>
+                        
+		
+                        <SimpleData name="Area">2390</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.195161473997,-37.7918385474172 176.195099529676,-37.7917904510691 176.195011193433,-37.7917927949111 176.194981142273,-37.7916412398057 176.194940151631,-37.7912755101128 176.195047221521,-37.7911578626663 176.195269044662,-37.7909030433131 176.195315033347,-37.790910643037 176.195332867784,-37.7909726433852 176.195299615265,-37.7910576251486 176.195218402342,-37.7911544959098 176.195208021784,-37.7912511576668 176.195225136104,-37.7913016346307 176.195239452678,-37.7913583015475 176.195276784867,-37.7914523874524 176.195328971132,-37.7915334559353 176.19538101947,-37.7916607957903 176.195374475144,-37.7917173864371 176.19534508036,-37.7917690112777 176.195307397601,-37.7918334438281 176.195161473997,-37.7918385474172</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">7</SimpleData>
+                        
+		
+                        <SimpleData name="Area">1618</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.195163498709,-37.791846844906 176.195306092175,-37.7918418317219 176.195361366484,-37.7919158482299 176.195369369949,-37.7919632723602 176.195409337973,-37.792116817532 176.195361890574,-37.7921909930789 176.195336086367,-37.7922204818028 176.195352411452,-37.7923298505556 176.195341289334,-37.7924366177728 176.195274515572,-37.7925093861828 176.195199197993,-37.7925347538187 176.195149783208,-37.7924569546513 176.195145752677,-37.7923634570851 176.195093524255,-37.7921480302679 176.195037062875,-37.791930052786 176.195111335122,-37.7918982659732 176.195157685453,-37.7918628900305 176.195163498709,-37.791846844906</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+  
+            <Placemark>
+                
+	
+                <styleUrl>#data-collection</styleUrl>
+                <ExtendedData>
+                    <SchemaData schemaUrl="#rowe_hillside">
+                        
+		
+                        <SimpleData name="id">8</SimpleData>
+                        
+		
+                        <SimpleData name="Area">3756</SimpleData>
+                        
+		
+                        <SimpleData name="Year">2023</SimpleData>
+                        
+	
+                    </SchemaData>
+                </ExtendedData>
+                
+      
+                <MultiGeometry>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>176.195149783208,-37.7924569546513 176.195156455445,-37.7926143706957 176.195174724803,-37.7927179010666 176.195072557313,-37.792909502769 176.194888757271,-37.7930909238211 176.194673009507,-37.7933656435527 176.194479227543,-37.7936814398482 176.194205004981,-37.7936496198469 176.194252782912,-37.7935535786028 176.194403482565,-37.7932632390026 176.194485081258,-37.7931672876568 176.194577275269,-37.793073620177 176.194735822738,-37.7928173516965 176.194813806349,-37.7927123600536 176.194953736698,-37.7925442705448 176.195073568342,-37.7924617441769 176.195149783208,-37.7924569546513</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+                
+  
+            </Placemark>
+            
+
+        </Folder>
+        
+
+    </Document>
+</kml>
