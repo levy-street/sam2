@@ -114,3 +114,33 @@ data:
     _partial_: true
     dict_key: all
 ```
+
+### Preparing the Google Earth screenshot dataset
+
+The scripts in `scripts/` can automate screenshot capture for every polygon in
+a KML file.  Each polygon yields a pair of images named `polygon_N_raw.png` and
+`polygon_N_mask.png`.  After capturing screenshots, convert the mask images to
+binary masks:
+
+```bash
+python scripts/convert_mask_screenshots.py \
+  --input-dir data/output \
+  --output-dir dataset/Annotations_tmp
+```
+
+Pixels near magenta (`#FF00FF`) are interpreted as foreground.  Use the
+`--tolerance` flag to adjust the allowed color difference.
+
+Prepare the dataset directories as follows before training:
+
+```
+dataset/
+  JPEGImages/
+  Annotations/
+```
+
+For each polygon `polygon_XXXX` (zero padded), place the JPEG screenshot at
+`dataset/JPEGImages/polygon_XXXX/00000.jpg` and the corresponding binary mask at
+`dataset/Annotations/polygon_XXXX/0/00000.png`.  Each polygon is treated as a
+single-frame video, so the frame number must be `00000`.
+
