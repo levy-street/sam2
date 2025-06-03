@@ -144,3 +144,13 @@ For each polygon `polygon_XXXX` (zero padded), place the JPEG screenshot at
 `dataset/Annotations/polygon_XXXX/0/00000.png`.  Each polygon is treated as a
 single-frame video, so the frame number must be `00000`.
 
+To automate this process for all screenshots nested under `data/outputs`, run:
+
+```bash
+python scripts/populate_dataset.py --input-dir data/outputs
+```
+
+The script converts the mask screenshots using `convert_mask_screenshots.py` and
+places the images and masks into `dataset/JPEGImages` and
+`dataset/Annotations`.
+

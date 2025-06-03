@@ -1,6 +1,7 @@
 .venv:
 	python3 -m venv .venv
 	.venv/bin/pip install -r requirements.txt
+	.venv/bin/pip install .
 	.venv/bin/python -m playwright install
 
 clean:
@@ -16,10 +17,10 @@ screenshot: .venv
 	.venv/bin/python3 scripts/screenshot_google_earth.py --kml data/kml/cleaned/extra/block_2_tf_2022.kml --output data/output/extra/block_2_tf_2022.kml
 
 screenshot-all-kml: .venv
-        .venv/bin/python3 scripts/screenshot_all_kml.py
+	.venv/bin/python3 scripts/screenshot_all_kml.py
 
 train: .venv
-        .venv/bin/python3 training/train.py \
-                -c sam2/configs/sam2.1_training/sam2.1_hiera_b+_MOSE_finetune.yaml \
-                --use-cluster 0 \
-                --num-gpus 1
+	.venv/bin/python3 training/train.py \
+		-c sam2/configs/sam2.1_training/sam2.1_hiera_b+_MOSE_finetune.yaml \
+		--use-cluster 0 \
+		--num-gpus 1
