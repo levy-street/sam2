@@ -1,7 +1,7 @@
 .venv:
 	python3 -m venv .venv
 	.venv/bin/pip install -r requirements.txt
-	.venv/bin/pip install .
+	.venv/bin/pip install ".[dev]"
 	.venv/bin/python -m playwright install
 
 clean:
@@ -21,6 +21,6 @@ screenshot-all-kml: .venv
 
 train: .venv
 	.venv/bin/python3 training/train.py \
-		-c sam2/configs/sam2.1_training/sam2.1_hiera_b+_MOSE_finetune.yaml \
+		-c configs/sam2.1_training/sam2.1_hiera_b+_MOSE_finetune.yaml \
 		--use-cluster 0 \
 		--num-gpus 1
