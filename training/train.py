@@ -122,7 +122,6 @@ def add_pythonpath_to_sys_path():
 
 def main(args) -> None:
     cfg = compose(config_name=args.config)
-    print(cfg)
     if cfg.launcher.experiment_log_dir is None:
         cfg.launcher.experiment_log_dir = os.path.join(
             os.getcwd(), "sam2_logs", args.config
