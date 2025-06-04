@@ -20,7 +20,7 @@ screenshot-all-kml: .venv
 	.venv/bin/python3 scripts/screenshot_all_kml.py
 
 train: .venv
-	.venv/bin/python3 training/train.py \
+	.venv/bin/python3 -m training.train \
 		-c configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml \
 		--use-cluster 0 \
 		--num-gpus 1
