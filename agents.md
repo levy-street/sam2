@@ -1,0 +1,1 @@
+refer to tree.txt to understand the current state of the filesystem on the user's machine for relevant context when debugging or configuring things
