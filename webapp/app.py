@@ -18,6 +18,10 @@ CHECKPOINTS = {
     'mose_finetune': {
         'config': 'sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_MOSE_finetune.yaml/config.yaml',
         'ckpt': 'checkpoints/mose_finetune.pt'
+    },
+    'eco-index-finetune': {
+        'config': 'configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/config.yaml',
+        'ckpt': 'configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/checkpoints/checkpoint.pt'
     }
 }
 
@@ -37,7 +41,7 @@ def get_predictor(name: str) -> SAM2ImagePredictor:
 
 @app.route('/')
 def index():
-    return send_from_directory('webapp', 'index.html')
+    return app.send_static_file('index.html')
 
 
 @app.route('/predict', methods=['POST'])
