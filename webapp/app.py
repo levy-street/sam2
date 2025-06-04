@@ -20,8 +20,8 @@ CHECKPOINTS = {
         'ckpt': 'checkpoints/mose_finetune.pt'
     },
     'eco-index-finetune': {
-        'config': 'configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/config.yaml',
-        'ckpt': 'configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/checkpoints/checkpoint.pt'
+        'config': 'sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/config.yaml',
+        'ckpt': 'sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/checkpoints/checkpoint.pt'
     }
 }
 
@@ -48,6 +48,7 @@ def index():
 def predict():
     image_file = request.files.get('image')
     checkpoint = request.form.get('checkpoint', 'facebook/sam2-hiera-base-plus')
+    print(f"Prediction request received for image: {image_file.name} and checkpoint: {checkpoint}")
     if image_file is None:
         return 'No image', 400
     image = Image.open(image_file.stream).convert('RGB')
