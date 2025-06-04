@@ -9,3 +9,4 @@ playwright
 torch
 torchvision
 transformers
+flask

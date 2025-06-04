@@ -24,3 +24,6 @@ train: .venv
 		-c configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml \
 		--use-cluster 0 \
 		--num-gpus 1
+
+run-app: .venv
+	FLASK_APP=webapp/app.py FLASK_ENV=development .venv/bin/flask run --reload

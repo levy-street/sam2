@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAM 2 Image Mask Demo</title>
+</head>
+<body>
+<h1>SAM 2 Image Mask Demo</h1>
+<form id="upload-form">
+    <label for="checkpoint">Checkpoint:</label>
+    <select id="checkpoint" name="checkpoint">
+        <option value="facebook/sam2-hiera-base-plus" selected>Pretrained Base+</option>
+        <option value="facebook/sam2-hiera-large">Pretrained Large</option>
+        <option value="mose_finetune">MOSE Finetune</option>
+    </select>
+    <br/>
+    <input type="file" id="image" name="image" accept="image/*" required>
+    <button type="submit">Upload</button>
+</form>
+<div>
+    <img id="result" style="max-width:100%; margin-top:20px;"/>
+</div>
+<script>
+const form = document.getElementById('upload-form');
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const data = new FormData();
+    const file = document.getElementById('image').files[0];
+    data.append('image', file);
+    data.append('checkpoint', document.getElementById('checkpoint').value);
+    const res = await fetch('/predict', {method: 'POST', body: data});
+    if(res.ok){
+        const blob = await res.blob();
+        document.getElementById('result').src = URL.createObjectURL(blob);
+    } else {
+        alert('Prediction failed');
+    }
+});
+</script>
+</body>
+</html>
