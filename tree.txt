@@ -1040,7 +1040,10 @@
 |   |-- _C.so
 |   |-- __init__.py
 |   |-- __pycache__
-|   |   `-- __init__.cpython-311.pyc
+|   |   |-- __init__.cpython-311.pyc
+|   |   |-- automatic_mask_generator.cpython-311.pyc
+|   |   |-- build_sam.cpython-311.pyc
+|   |   `-- sam2_image_predictor.cpython-311.pyc
 |   |-- automatic_mask_generator.py
 |   |-- benchmark.py
 |   |-- build_sam.py
@@ -1105,7 +1108,9 @@
 |       |-- __init__.py
 |       |-- __pycache__
 |       |   |-- __init__.cpython-311.pyc
-|       |   `-- misc.cpython-311.pyc
+|       |   |-- amg.cpython-311.pyc
+|       |   |-- misc.cpython-311.pyc
+|       |   `-- transforms.cpython-311.pyc
 |       |-- amg.py
 |       |-- misc.py
 |       `-- transforms.py
@@ -1157,6 +1162,8 @@
 |   |-- screenshot_all_kml.py
 |   `-- screenshot_google_earth.py
 |-- setup.py
+|-- simple_webapp
+|   `-- templates
 |-- tools
 |   |-- README.md
 |   `-- vos_inference.py
@@ -1216,6 +1223,11 @@
 |       |-- distributed.py
 |       |-- logger.py
 |       `-- train_utils.py
-`-- tree.txt
+|-- tree.txt
+`-- webapp
+    |-- __pycache__
+    |   `-- app.cpython-311.pyc
+    |-- app.py
+    `-- index.html
 
-318 directories, 900 files
+322 directories, 908 files
