@@ -6,9 +6,11 @@
 
 import logging
 import os
+from pathlib import Path
 
 import torch
-from hydra import compose
+from hydra import compose, initialize_config_dir, initialize_config_module
+from hydra.core.global_hydra import GlobalHydra
 from hydra.utils import instantiate
 from omegaconf import OmegaConf
 
@@ -87,7 +89,19 @@ def build_sam2(
             "++model.sam_mask_decoder_extra_args.dynamic_multimask_stability_thresh=0.98",
         ]
     # Read config and init model
-    cfg = compose(config_name=config_file, overrides=hydra_overrides_extra)
+    config_path = Path(config_file)
+    if config_path.is_file():
+        GlobalHydra.instance().clear()
+        with initialize_config_dir(
+            version_base="1.2", config_dir=str(config_path.parent)
+        ):
+            cfg = compose(
+                config_name=config_path.name, overrides=hydra_overrides_extra
+            )
+    else:
+        if not GlobalHydra.instance().is_initialized():
+            initialize_config_module("sam2", version_base="1.2")
+        cfg = compose(config_name=config_file, overrides=hydra_overrides_extra)
     OmegaConf.resolve(cfg)
     model = instantiate(cfg.model, _recursive_=True)
     _load_checkpoint(model, ckpt_path)
@@ -131,7 +145,19 @@ def build_sam2_video_predictor(
     hydra_overrides.extend(hydra_overrides_extra)
 
     # Read config and init model
-    cfg = compose(config_name=config_file, overrides=hydra_overrides)
+    config_path = Path(config_file)
+    if config_path.is_file():
+        GlobalHydra.instance().clear()
+        with initialize_config_dir(
+            version_base="1.2", config_dir=str(config_path.parent)
+        ):
+            cfg = compose(
+                config_name=config_path.name, overrides=hydra_overrides
+            )
+    else:
+        if not GlobalHydra.instance().is_initialized():
+            initialize_config_module("sam2", version_base="1.2")
+        cfg = compose(config_name=config_file, overrides=hydra_overrides)
     OmegaConf.resolve(cfg)
     model = instantiate(cfg.model, _recursive_=True)
     _load_checkpoint(model, ckpt_path)

@@ -20,8 +20,8 @@ CHECKPOINTS = {
         'ckpt': 'checkpoints/mose_finetune.pt'
     },
     'eco-index-finetune': {
-        'config': 'sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/config.yaml',
-        'ckpt': 'sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/checkpoints/checkpoint.pt'
+        'config': '/workspace/sam2/sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/config.yaml',
+        'ckpt': '/workspace/sam2/sam2_logs/configs/sam2.1_training/sam2.1_hiera_b+_single_frame.yaml/checkpoints/checkpoint.pt'
     }
 }
 

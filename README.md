@@ -94,6 +94,10 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 
 Please refer to the examples in [image_predictor_example.ipynb](./notebooks/image_predictor_example.ipynb) (also in Colab [here](https://colab.research.google.com/github/facebookresearch/sam2/blob/main/notebooks/image_predictor_example.ipynb)) for static image use cases.
 
+Note: `build_sam2` and `build_sam2_video_predictor` accept either package-relative
+config names (e.g. `configs/sam2.1/sam2.1_hiera_l.yaml`) or absolute paths to a
+`config.yaml` saved from a training run.
+
 SAM 2 also supports automatic mask generation on images just like SAM. Please see [automatic_mask_generator_example.ipynb](./notebooks/automatic_mask_generator_example.ipynb) (also in Colab [here](https://colab.research.google.com/github/facebookresearch/sam2/blob/main/notebooks/automatic_mask_generator_example.ipynb)) for automatic mask generation in images.
 
 ### Video prediction
